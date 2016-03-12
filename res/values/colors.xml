@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="slide_back">#ffffff</color>
+	<color name="internet_ok">#0000ff</color>
+	<color name="internet_ng">#ff0000</color>
+	<color name="internet_no">#000000</color>
+	<color name="progress_dark">#00ff00</color>
+	<color name="progress_light">#ffffff</color>
+	<color name="progress_normal">#ffffff</color>
+</resources>

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, MainActivity!</string>
+	<string name="drawer_open"></string>
+	<string name="drawer_close"></string>
     <string name="app_name">SpoofBrowser</string>
-
+    <string name="cbdialog_mes">This browser requies clipboard.¥nCan you allow access to clipboard?</string>
+	<string name="name_gecko">Spoof on Gecko(Firefox)</string>
+	<string name="name_trident">Spoof on Trident(Internet Explorer)</string>
+	<string name="name_presto">Spoof on Presto(Opera)</string>
+	<string name="name_chrome">Spoof on WebKit(Chrome)</string>
+	<string name="dialog_title">Validating...</string>
+	<string name="dialog_message">This program is validating files.¥nPlease wait.</string>
+	<string name="sof">Show on Full Size</string>
+	<string name="son">Show on Normal Size</string>
+	<string name="BackToRestore">Press back key to restore.</string>
+	<string name="sodt">Switch to Dark Theme</string>
+	<string name="solt">Switch to Light Theme</string>
+	<string name="SkippedAdfly">You went to adf.ly. This program skipped adf.ly.</string>
+	<string name="share">Share</string>
+	<string name="pagename">Page name:</string>
+	<string name="pbte">Press Back key to stop</string>
+	<string name="offline">Can\'t connect to the Internet now.</string>
+	<string name="checkInternetConnetion">Check Internet connetion</string>
+	<string name="internetTx">Internet state:Connection @InternetState@</string>
+	<string name="internetOk">OK</string>
+	<string name="internetNg">NG</string>
+	<string name="internetCh">Checking...</string>
+	<string name="ToImmersive">Switch to Immersive mode</string>
+	<string name="FromImmersive">Switch to Normal mode</string>
 </resources>

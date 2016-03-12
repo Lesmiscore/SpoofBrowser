@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/drawer_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:id="@+id/mainview"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<WebView
+			android:id="@+id/browser"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:layout_marginLeft="20dp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/slideview"
+		android:layout_width="@dimen/slide_size"
+		android:layout_height="match_parent"
+		android:layout_gravity="left"
+		android:background="@color/slide_back"
+		android:gravity="left">
+
+		<ScrollView
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:layout_width="match_parent">
+
+			<LinearLayout
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:id="@+id/LayoutInside">
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="vertical"
+					android:id="@+id/AddressBar">
+
+					<EditText
+						android:layout_height="match_parent"
+						android:inputType="textUri"
+						android:ems="10"
+						android:layout_width="match_parent"
+						android:layout_weight="0.5"
+						android:id="@+id/UrlBox"/>
+
+					<Button
+						android:layout_height="wrap_content"
+						android:text="Go"
+						android:layout_width="match_parent"
+						android:id="@+id/btngo"/>
+
+				</LinearLayout>
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="@string/pagename"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:id="@+id/pagenametitle"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:id="@+id/pagename"/>
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:id="@+id/NavigationBar">
+
+					<Button
+						android:layout_height="match_parent"
+						android:text="Back"
+						android:layout_width="wrap_content"
+						android:id="@+id/btnback"/>
+
+					<Button
+						android:layout_height="match_parent"
+						android:text="Prev"
+						android:layout_width="wrap_content"
+						android:id="@+id/btnprev"/>
+
+					<Button
+						android:layout_height="match_parent"
+						android:text="Update"
+						android:layout_width="wrap_content"
+						android:id="@+id/btnupd"/>
+
+				</LinearLayout>
+
+				<Button
+					android:layout_height="match_parent"
+					android:text="Share"
+					android:layout_width="match_parent"
+					android:id="@+id/btnshare"/>
+
+				<ProgressBar
+					android:layout_height="5dp"
+					style="?android:attr/progressBarStyleHorizontal"
+					android:layout_width="match_parent"
+					android:indeterminate="true"
+					android:id="@+id/pcircle"
+					android:layout_gravity="center"
+					android:visibility="invisible"
+					android:indeterminateDrawable="@anim/progress1"/>
+
+				<CheckBox
+					android:id="@+id/pbte"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/pbte"/>
+
+				<Button
+					android:layout_height="wrap_content"
+					android:text="@string/checkInternetConnetion"
+					android:layout_width="wrap_content"
+					android:id="@+id/startInternetTest"/>
+				<!--<Button
+					android:layout_height="wrap_content"
+					android:text="@string/ToImmersive"
+					android:layout_width="wrap_content"
+					android:id="@+id/ImmersiveMode"/>-->
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
+

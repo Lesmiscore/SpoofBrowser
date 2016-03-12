@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cbdialog_mes">ブラウザがクリップボードへのアクセスを要求しています。\nアクセスを許可しますか？</string>
+	<string name="name_gecko">Gecko(Firefox)に偽装</string>
+	<string name="name_trident">Trident(Internet Explorer)に偽装</string>
+	<string name="name_presto">Presto(Opera)に偽装</string>
+	<string name="name_chrome">WebKit(Chrome)に偽装</string>
+	<string name="sof">フルサイズで表示</string>
+	<string name="son">標準サイズで表示</string>
+	<string name="BackToRestore">バックキーで復元します。</string>
+	<string name="sodt">ダークテーマに切り替え</string>
+	<string name="solt">ライトテーマに切り替え</string>
+	<string name="SkippedAdfly">Adf.lyへの接続を検知しました。そのため、突破処理を行いました。</string>
+	<string name="share">共有</string>
+	<string name="pagename">ページ名:</string>
+	<string name="pbte">バックキーを押して終了する</string>
+	<string name="offline">現在、インターネットに接続できません。</string>
+	<string name="checkInternetConnetion">インターネット接続をチェックする</string>
+	<string name="internetTx">インターネットの状態:接続@InternetState@</string>
+	<string name="internetOk">可能</string>
+	<string name="internetNg">不可</string>
+	<string name="internetCh">チェック中...</string>
+	<string name="ToImmersive">Immersiveモードに切り替え</string>
+	<string name="FromImmersive">通常モードに切り替え</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--List of UserAgents only for SpoofBrowser-->
+<resources>
+	<string name="ua_msie">Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko</string>
+	<string name="ua_chrome">Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Safari/537.36</string>
+	<string name="ua_ff">Mozilla/5.0 (Windows NT 6.1; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1</string>
+	<string name="ua_presto">Opera/9.80 (Windows NT 6.1; U; ja) Presto/2.10.229 Version/11.60</string>
+</resources>

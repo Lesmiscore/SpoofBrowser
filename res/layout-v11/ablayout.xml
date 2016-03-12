@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_height="match_parent"
+			android:inputType="textUri"
+			android:ems="10"
+			android:layout_width="wrap_content"
+			android:layout_weight="0.5"
+			android:id="@+id/UrlBox"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="Go"
+			android:layout_width="wrap_content"
+			android:id="@+id/btngo"/>
+
+	</LinearLayout>
+</LinearLayout>
